@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h1>01</h1><br>
+                <h2>Card one</h2><br>
+                <p>A base station is a fixed transceiver that <br>connects mobile
+                     devices to 
+                    cellular network <br>
+                    Antenna is a device that transmits and receives <br>signals from mobile 
+                    devices and the basic station</p><br>
+                    <div class="square"></div>
+                    <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h1>02</h1><br>
+                <h2>Card two</h2><br>
+                <p>A base station is a fixed transceiver that <br>connects mobile
+                     devices to 
+                    cellular network <br>
+                    Antenna is a device that transmits and receives <br>signals from mobile 
+                    devices and the basic station</p><br>
+                    <div class="square"></div>
+                    <a href="#">Read more</a>
+            </div>
+        </div><br>
+        <div class="card">
+            <div class="content">
+                <h1>03</h1><br>
+                <h2>Card three</h2><br>
+                <p>A base station is a fixed transceiver that <br>connects mobile
+                     devices to 
+                    cellular network <br>
+                    Antenna is a device that transmits and receives <br>signals from mobile 
+                    devices and the basic station</p><br>
+                    <div class="square"></div>
+                    <a href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+    <script defer>
+        document.addEventListener("DOMContentLoaded", function () {
+            VanillaTilt.init(document.querySelectorAll(".card"), {
+                max: 25,
+                speed: 400,
+                glare: true,
+                "max-glare": 1,
+            });
+        });
+    </script>
+</body>
+</html>
